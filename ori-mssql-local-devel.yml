@@ -1,0 +1,12 @@
+services:
+  ori-mssql-local-devel:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    env_file:
+      - ori-mssql-local-devel.env
+    ports:
+      - 1433:1433
+    volumes:
+      - ori-mssql-local-devel:/var/opt/mssql
+volumes:
+  ori-mssql-local-devel:
+    external: true

@@ -1,0 +1,2 @@
+
+sudo docker volume rm ori-mssql-local-devel

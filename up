@@ -1,0 +1,4 @@
+
+sudo docker-compose -f \
+	       $zely/rec/docker/mssql-local-devel/ori-mssql-local-devel.yml \
+	       up  -d

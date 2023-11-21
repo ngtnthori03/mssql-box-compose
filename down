@@ -1,0 +1,2 @@
+
+sudo docker-compose -f $ori/record/docker/mssql-local-devel/ori-mssql-local-devel.yml down
