@@ -18,6 +18,6 @@
     sh ./down # docker-compose .. down
 ```
 
-## PROB -  SOL
+## Q & A
 
 - how to run on windows - using WSL
