@@ -1,4 +1,4 @@
 
-sudo docker-compose -f \
-	       $zely/rec/docker/mssql-local-devel/ori-mssql-local-devel.yml \
+podman-compose -f \
+	       $tigi/aux/box/mssql/tigi-mssql-box.yml \
 	       up  -d

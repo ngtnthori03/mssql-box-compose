@@ -1,12 +1,12 @@
 services:
-  ori-mssql-local-devel:
+  tigi-mssql-box:
     image: mcr.microsoft.com/mssql/server:2022-latest
     env_file:
-      - ori-mssql-local-devel.env
+      - tigi-mssql-box.env
     ports:
       - 1433:1433
     volumes:
-      - ori-mssql-local-devel:/var/opt/mssql
+      - tigi-mssql-box-vol:/var/opt/mssql
 volumes:
-  ori-mssql-local-devel:
+  tigi-mssql-box-vol:
     external: true
