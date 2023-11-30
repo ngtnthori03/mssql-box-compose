@@ -1,21 +1,12 @@
 
-# zelyn's MSSQL box (MSSQL container)
+# TiGi's MSSQL box (MSSQL container)
 
 ## usage 
 
-### create external volume first
-```shell
-    sh ./vre-vol
-```
 
-### run container```
+### run container
 ```shell
     sh ./up # docker-compose ... up
-```
-
-### stop container
-```shell
-    sh ./down # docker-compose .. down
 ```
 
 ## Q & A
